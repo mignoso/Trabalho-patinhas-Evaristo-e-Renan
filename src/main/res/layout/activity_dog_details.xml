@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/DeepSkyBlue"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-144dp">
+
+        <!-- Imagem do cão -->
+
+        <!-- Nome do cão -->
+
+        <ImageView
+            android:id="@+id/dog_image"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/dog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Nome do Cão"
+            android:textSize="20sp" />
+
+        <!-- Detalhes adicionais -->
+        <TextView
+            android:id="@+id/dog_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Idade: 3 anos"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dog_breed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Raça: Labrador"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dog_descricao"
+            android:layout_width="383dp"
+            android:layout_height="334dp"
+            android:layout_marginTop="8dp"
+            android:text="Descricao"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/adoteButton"
+            android:layout_width="381dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="Adote"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

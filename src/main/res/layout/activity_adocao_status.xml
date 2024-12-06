@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Caixa para exibir o status da adoção -->
+    <TextView
+        android:id="@+id/adocao_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adoção Pendentes"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Caixa para exibir o nome do adotante -->
+    <TextView
+        android:id="@+id/adotante_nome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Adotante:"
+        android:textSize="16sp"/>
+
+    <!-- Caixa para exibir o telefone do adotante -->
+    <TextView
+        android:id="@+id/adotante_telefone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone do Adotante:"
+        android:textSize="16sp"/>
+
+    <!-- Caixa para exibir o endereço do adotante -->
+    <TextView
+        android:id="@+id/adotante_endereco_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço do Adotante:"
+        android:textSize="16sp"/>
+
+</LinearLayout>

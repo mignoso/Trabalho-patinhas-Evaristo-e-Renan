@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@color/blueBackground">
+
+    <!-- Campo para o nome do adotante -->
+
+    <!-- Campo para o telefone do adotante -->
+
+    <EditText
+        android:id="@+id/adotante_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Nome do Adotante"
+        android:padding="12dp"
+        android:background="@color/white"/>
+
+
+
+    <EditText
+        android:id="@+id/adotante_endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Endereço do Adotante"
+        android:padding="12dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/adotante_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Telefone do Adotante"
+        android:padding="12dp"
+        android:background="@color/white"/>
+
+    <!-- Campo para o endereço do adotante -->
+
+    <!-- Botão para enviar o formulário -->
+    <Button
+        android:id="@+id/enviar_adocao_button"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:text="Enviar Adoção"
+        android:layout_gravity="center"
+        android:background="@drawable/button" />
+
+</LinearLayout>
